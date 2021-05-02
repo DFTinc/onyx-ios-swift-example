@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445F359BC8D3DE169F8CAC2B /* libPods-onyx-ios-swift-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E337D7737DC57B28413DD7 /* libPods-onyx-ios-swift-example.a */; };
 		62677C09263F383F00E59F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C08263F383F00E59F2F /* AppDelegate.swift */; };
 		62677C0B263F383F00E59F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C0A263F383F00E59F2F /* SceneDelegate.swift */; };
 		62677C0D263F383F00E59F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C0C263F383F00E59F2F /* ViewController.swift */; };
 		62677C10263F383F00E59F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677C0E263F383F00E59F2F /* Main.storyboard */; };
 		62677C12263F384100E59F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62677C11263F384100E59F2F /* Assets.xcassets */; };
 		62677C15263F384100E59F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677C13263F384100E59F2F /* LaunchScreen.storyboard */; };
+		62677C1D263F432600E59F2F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62677C1C263F432600E59F2F /* Podfile */; };
+		62677C31263F5E4500E59F2F /* capture_unet_nn_quant.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */; };
+		62677C32263F5E4600E59F2F /* onyx_4f_logo_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */; };
+		62677C33263F5E4600E59F2F /* onyx_4f_logo_v2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2149E7695EFCFEA2C87E8E57 /* Pods-onyx-ios-swift-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onyx-ios-swift-example.release.xcconfig"; path = "Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example.release.xcconfig"; sourceTree = "<group>"; };
 		62677C05263F383F00E59F2F /* onyx-ios-swift-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onyx-ios-swift-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62677C08263F383F00E59F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62677C0A263F383F00E59F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,14 @@
 		62677C11263F384100E59F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62677C14263F384100E59F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62677C16263F384100E59F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62677C1C263F432600E59F2F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		62677C24263F471F00E59F2F /* onyx-ios-swift-example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "onyx-ios-swift-example-Bridging-Header.h"; sourceTree = "<group>"; };
+		62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = capture_unet_nn_quant.tflite; path = Pods/OnyxCamera/OnyxCamera/Assets/capture_unet_nn_quant.tflite; sourceTree = "<group>"; };
+		62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onyx_4f_logo_v2.png; path = Pods/OnyxCamera/OnyxCamera/Assets/onyx_4f_logo_v2.png; sourceTree = "<group>"; };
+		62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "onyx_4f_logo_v2@2x.png"; path = "Pods/OnyxCamera/OnyxCamera/Assets/onyx_4f_logo_v2@2x.png"; sourceTree = "<group>"; };
+		62677C2E263F5BC800E59F2F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		85E337D7737DC57B28413DD7 /* libPods-onyx-ios-swift-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onyx-ios-swift-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B28424BE82E45E4CB35DFE /* Pods-onyx-ios-swift-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onyx-ios-swift-example.debug.xcconfig"; path = "Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445F359BC8D3DE169F8CAC2B /* libPods-onyx-ios-swift-example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +55,14 @@
 		62677BFC263F383E00E59F2F = {
 			isa = PBXGroup;
 			children = (
+				62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */,
+				62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */,
+				62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */,
+				62677C1C263F432600E59F2F /* Podfile */,
 				62677C07263F383F00E59F2F /* onyx-ios-swift-example */,
 				62677C06263F383F00E59F2F /* Products */,
+				877C69BEE6597F941908117E /* Pods */,
+				77A66A1594AC68E1FA6BF036 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +84,27 @@
 				62677C11263F384100E59F2F /* Assets.xcassets */,
 				62677C13263F384100E59F2F /* LaunchScreen.storyboard */,
 				62677C16263F384100E59F2F /* Info.plist */,
+				62677C24263F471F00E59F2F /* onyx-ios-swift-example-Bridging-Header.h */,
 			);
 			path = "onyx-ios-swift-example";
+			sourceTree = "<group>";
+		};
+		77A66A1594AC68E1FA6BF036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62677C2E263F5BC800E59F2F /* MessageUI.framework */,
+				85E337D7737DC57B28413DD7 /* libPods-onyx-ios-swift-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877C69BEE6597F941908117E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2B28424BE82E45E4CB35DFE /* Pods-onyx-ios-swift-example.debug.xcconfig */,
+				2149E7695EFCFEA2C87E8E57 /* Pods-onyx-ios-swift-example.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62677C19263F384100E59F2F /* Build configuration list for PBXNativeTarget "onyx-ios-swift-example" */;
 			buildPhases = (
+				B01516D2DA87B4DAD745E9AD /* [CP] Check Pods Manifest.lock */,
 				62677C01263F383F00E59F2F /* Sources */,
 				62677C02263F383F00E59F2F /* Frameworks */,
 				62677C03263F383F00E59F2F /* Resources */,
+				91DD7810E5230AAD306E2304 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +140,7 @@
 				TargetAttributes = {
 					62677C04263F383F00E59F2F = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -124,13 +167,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62677C31263F5E4500E59F2F /* capture_unet_nn_quant.tflite in Resources */,
+				62677C32263F5E4600E59F2F /* onyx_4f_logo_v2.png in Resources */,
+				62677C33263F5E4600E59F2F /* onyx_4f_logo_v2@2x.png in Resources */,
 				62677C15263F384100E59F2F /* LaunchScreen.storyboard in Resources */,
 				62677C12263F384100E59F2F /* Assets.xcassets in Resources */,
+				62677C1D263F432600E59F2F /* Podfile in Resources */,
 				62677C10263F383F00E59F2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91DD7810E5230AAD306E2304 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01516D2DA87B4DAD745E9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onyx-ios-swift-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62677C01263F383F00E59F2F /* Sources */ = {
@@ -200,6 +289,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -216,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -261,6 +351,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -271,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,9 +374,11 @@
 		};
 		62677C1A263F384100E59F2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B28424BE82E45E4CB35DFE /* Pods-onyx-ios-swift-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SK8JVNSJE9;
 				INFOPLIST_FILE = "onyx-ios-swift-example/Info.plist";
@@ -295,6 +388,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DFT.onyx-ios-swift-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "onyx-ios-swift-example/onyx-ios-swift-example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,9 +397,11 @@
 		};
 		62677C1B263F384100E59F2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2149E7695EFCFEA2C87E8E57 /* Pods-onyx-ios-swift-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SK8JVNSJE9;
 				INFOPLIST_FILE = "onyx-ios-swift-example/Info.plist";
@@ -314,6 +411,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DFT.onyx-ios-swift-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "onyx-ios-swift-example/onyx-ios-swift-example-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
