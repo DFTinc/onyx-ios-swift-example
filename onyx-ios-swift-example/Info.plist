@@ -60,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Capture fingerprint image</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save Onyx Image Results</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Save Pictures</string>
 </dict>
 </plist>

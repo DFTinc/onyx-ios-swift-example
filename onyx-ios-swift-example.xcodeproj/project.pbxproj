@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		445F359BC8D3DE169F8CAC2B /* libPods-onyx-ios-swift-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E337D7737DC57B28413DD7 /* libPods-onyx-ios-swift-example.a */; };
+		625AF4E126752E930023706D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62677C2E263F5BC800E59F2F /* MessageUI.framework */; };
 		62677C09263F383F00E59F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C08263F383F00E59F2F /* AppDelegate.swift */; };
 		62677C0B263F383F00E59F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C0A263F383F00E59F2F /* SceneDelegate.swift */; };
 		62677C0D263F383F00E59F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62677C0C263F383F00E59F2F /* ViewController.swift */; };
@@ -15,9 +16,6 @@
 		62677C12263F384100E59F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62677C11263F384100E59F2F /* Assets.xcassets */; };
 		62677C15263F384100E59F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677C13263F384100E59F2F /* LaunchScreen.storyboard */; };
 		62677C1D263F432600E59F2F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62677C1C263F432600E59F2F /* Podfile */; };
-		62677C31263F5E4500E59F2F /* capture_unet_nn_quant.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */; };
-		62677C32263F5E4600E59F2F /* onyx_4f_logo_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */; };
-		62677C33263F5E4600E59F2F /* onyx_4f_logo_v2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +30,6 @@
 		62677C16263F384100E59F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62677C1C263F432600E59F2F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		62677C24263F471F00E59F2F /* onyx-ios-swift-example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "onyx-ios-swift-example-Bridging-Header.h"; sourceTree = "<group>"; };
-		62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = capture_unet_nn_quant.tflite; path = Pods/OnyxCamera/OnyxCamera/Assets/capture_unet_nn_quant.tflite; sourceTree = "<group>"; };
-		62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onyx_4f_logo_v2.png; path = Pods/OnyxCamera/OnyxCamera/Assets/onyx_4f_logo_v2.png; sourceTree = "<group>"; };
-		62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "onyx_4f_logo_v2@2x.png"; path = "Pods/OnyxCamera/OnyxCamera/Assets/onyx_4f_logo_v2@2x.png"; sourceTree = "<group>"; };
 		62677C2E263F5BC800E59F2F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		85E337D7737DC57B28413DD7 /* libPods-onyx-ios-swift-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onyx-ios-swift-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B28424BE82E45E4CB35DFE /* Pods-onyx-ios-swift-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onyx-ios-swift-example.debug.xcconfig"; path = "Target Support Files/Pods-onyx-ios-swift-example/Pods-onyx-ios-swift-example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625AF4E126752E930023706D /* MessageUI.framework in Frameworks */,
 				445F359BC8D3DE169F8CAC2B /* libPods-onyx-ios-swift-example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,12 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		625AF4EB2675342E0023706D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		62677BFC263F383E00E59F2F = {
 			isa = PBXGroup;
 			children = (
-				62677C28263F594800E59F2F /* capture_unet_nn_quant.tflite */,
-				62677C29263F594800E59F2F /* onyx_4f_logo_v2.png */,
-				62677C2A263F594800E59F2F /* onyx_4f_logo_v2@2x.png */,
+				625AF4EB2675342E0023706D /* Resources */,
 				62677C1C263F432600E59F2F /* Podfile */,
 				62677C07263F383F00E59F2F /* onyx-ios-swift-example */,
 				62677C06263F383F00E59F2F /* Products */,
@@ -167,9 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62677C31263F5E4500E59F2F /* capture_unet_nn_quant.tflite in Resources */,
-				62677C32263F5E4600E59F2F /* onyx_4f_logo_v2.png in Resources */,
-				62677C33263F5E4600E59F2F /* onyx_4f_logo_v2@2x.png in Resources */,
 				62677C15263F384100E59F2F /* LaunchScreen.storyboard in Resources */,
 				62677C12263F384100E59F2F /* Assets.xcassets in Resources */,
 				62677C1D263F432600E59F2F /* Podfile in Resources */,
