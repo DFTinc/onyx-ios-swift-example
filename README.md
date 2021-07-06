@@ -105,7 +105,7 @@ target 'onyx-ios-swift-example' do
 end
 ```
 
-* Add 3 files to your project. 
+* Add files to your project. 
 
 1. Select your xcodeproj file from the naviagtion pane on the left
 2. Select "Build Phases"
