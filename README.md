@@ -18,13 +18,11 @@ pod install
 
 ***NOTE***
 
-OnyxCamera cocoapod 7.0.1 now implements the latest ONYX four finger simultaneous capture process you will see a breaking change from the previous single finger capture cocoapods. ONYX no longer returns a single OnyxResult file it returns an array of files representing each individual fingerprint and is now denoted as
-```
-onyxResults
+OnyxCamera cocoapod now implements the latest ONYX four finger simultaneous capture process you will see a breaking change from the previous single finger capture cocoapods.
 ```
 
 ## Requirements
-- Minimum iOS Deployment Target 9.0
+- Minimum iOS Deployment Target 11.0
 - xCode 11 & 12
 
 ## Known issues
@@ -89,19 +87,19 @@ pod init
 * Add the `OnyxCamera` cocoapod to the Podfile
 
 ```
-pod 'OnyxCamera', '~> 7.0.1'
+pod 'OnyxCamera'
 ```
 
 ```
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '11.0'
 
 target 'onyx-ios-swift-example' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
   # Pods for onyx-ios-swift-example
-    pod 'OnyxCamera', '~> 7.0.1'
+    pod 'OnyxCamera'
 end
 ```
 
