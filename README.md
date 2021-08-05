@@ -16,10 +16,8 @@ pod install
 
 * Open the new workspace that was created `onyx-ios-swift-example.xcworkspace`
 
-***NOTE***
-
+***NOTE:***
 OnyxCamera cocoapod now implements the latest ONYX four finger simultaneous capture process you will see a breaking change from the previous single finger capture cocoapods.
-```
 
 ## Requirements
 - Minimum iOS Deployment Target 11.0
